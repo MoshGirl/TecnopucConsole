@@ -18,6 +18,7 @@ namespace TecnopucConsole.Projeto.Service
             BuscarDados();
         }
 
+        //Método que busca e converte os dados do arquivo em uma lista de objetos do tipo DadosElevador
         private void BuscarDados()
         {
             try
