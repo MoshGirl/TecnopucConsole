@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace TecnopucConsole.Projeto.Model
 {
     public class DadosElevador
     {
-        public int Andar { get; private set; }
-        public char Elevador { get; private set; }
-        public char Turno { get; private set; }
+        public int andar { get; set; }
+        public char elevador { get; set; }
+        public char turno { get; set; }
     }
 }
